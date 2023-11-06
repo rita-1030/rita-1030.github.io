@@ -1,0 +1,18 @@
+﻿.top_container {
+  font-size: 18px;
+}
+
+.drink_menu_box {
+  margin-left: 100px;
+  margin-right: 100px;
+  text-align: center;
+  line-height: 3;
+  padding-top: 30px;
+  padding-bottom: 30px;
+  margin-top: 20px;
+}
+
+.drink_category {
+  text-align: center;
+  margin-top: 40px;
+}

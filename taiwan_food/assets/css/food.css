@@ -1,0 +1,53 @@
+﻿.recommend_food ol {
+  float: left;
+  width: 500px;
+}
+
+.recommend_food_desc {
+  float: left;
+  font-size: 25px;
+  padding-top: 150px;
+}
+
+.food_box {
+  width: 270px;
+  margin-right: 20px;
+  margin-top: 40px;
+  margin-bottom: 40px;
+  padding: 0;
+}
+
+.bottom_menu {
+  width: 500px;
+  float: left;
+  padding-bottom: 50px;
+}
+
+.bottom_menu p {
+  float: left;
+}
+
+.bottom_menu ul {
+  float: left;
+  padding-left: 20px;
+}
+
+.bottom_menu_desc {
+  text-align: center;
+}
+
+.bottom_menu_desc ul {
+  list-style-type: none;
+}
+
+.setmenu_box {
+  float: left;
+  margin-left: 90px;
+  padding: 20px;
+}
+
+.setmenu_box ul {
+  list-style-type: none;
+  padding: 20px;
+  line-height: 2;
+}

@@ -1,0 +1,57 @@
+﻿@charset "utf-8";
+@import url("https://fonts.googleapis.com/css?family=Sawarabi+Mincho");
+
+:root {
+  --vseparetor_width: 1px;
+  --dotted_underline_size: 1px;
+  --food_box_width: 400px;
+}
+
+* {
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  font-family: "Sawarabi Mincho";
+}
+
+h1 {
+  padding: 20px;
+  font-size: 40px;
+}
+
+.clearfix:after {
+  content: "";
+  display: block;
+  clear: both;
+}
+
+.top_container {
+  width: 900px;
+  margin: auto;
+}
+
+.vertical_separetor {
+  border-left: solid var(--vseparetor_width) #000;
+  border-right: solid var(--vseparetor_width) #000;
+}
+
+.dotted_underline {
+  border-bottom: dotted var(--dotted_underline_size) #000;
+}
+
+.double_border_box {
+  border: double 6px #000;
+}
+
+.fit_img_width {
+  width: 100%;
+}
+
+.food_box {
+  width: var(--food_box_width);
+  float: left;
+  padding: 20px;
+  text-align: center;
+}

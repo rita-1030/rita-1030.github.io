@@ -1,0 +1,46 @@
+﻿.recommend_dessert_box ol {
+  float: left;
+  width: 500px;
+}
+
+.dessert_desc {
+  float: left;
+  text-align: center;
+  padding-left: 20px;
+}
+
+.dessert_desc p {
+  padding-top: 40px;
+  font-size: 18px;
+}
+
+.dessert_desc h2 {
+  margin-top: 50px;
+}
+
+.dessert_desc_text {
+  margin-bottom: 70px;
+}
+
+.topping_menu {
+  width: 600px;
+  margin: auto;
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+
+.topping_menu h3 {
+  text-align: center;
+  font-size: 20px;
+  padding: 20px;
+}
+
+.topping_menu ul {
+  float: left;
+  margin-left: 30px;
+  padding-left: 100px;
+}
+
+.topping_menu li {
+  padding: 10px 20px 15px 0px;
+}
