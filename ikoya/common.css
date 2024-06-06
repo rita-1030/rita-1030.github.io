@@ -1,0 +1,116 @@
+﻿@charset"utf-8";
+
+*{
+	padding:0;
+	margin:0;
+}
+
+body{
+	background-color:#ffa500;
+}
+
+.wrap{
+	width:830px;
+	margin:auto;
+	background-color:#fff;
+	margin-bottom:20px;
+	line-height:1.5;
+}
+
+img{
+	vertical-align:bottom;
+}
+
+ul{
+	list-style-type:none;
+}
+
+menu{
+	margin-bottom:10px;
+}
+
+.botan1 a{
+	background-image:url(img/menu_01.jpg);
+	display:block;
+	width:194px;
+	height:38px;
+	text-indent:100%;
+	white-space:nowrap;
+	overflow:hidden;
+}
+
+.botan1 a:hover{
+	background-position:0 38px;
+}
+
+.botan2 a{
+	background-image:url(img/menu_02.jpg);
+	display:block;
+	width:194px;
+	height:36px;
+	text-indent:100%;
+	white-space:nowrap;
+	overflow:hidden;
+}
+
+.botan2 a:hover{
+	background-position:0 36px;
+}
+
+.botan3 a{
+	background-image:url(img/menu_03.jpg);
+	display:block;
+	width:194px;
+	height:38px;
+	text-indent:100%;
+	white-space:nowrap;
+	overflow:hidden;
+}
+
+.botan3 a:hover{
+	background-position:0 38px;
+}
+
+.nav{
+	float:left;
+	width:200px;
+	background-color:#006400;
+	margin-top:15px;
+	padding-bottom:528px;
+}
+
+.con{
+	float:left;
+	width:630px;
+	margin-top:15px;
+}
+
+.clearfix:after{
+	content:"";
+	display:block;
+	clear:both;
+}
+
+h3{
+	text-align:center;
+	margin-top:10px;
+	margin-bottom:25px;
+}
+
+.gazou{
+	text-align:center;
+}
+
+h2{
+	margin-left:3px;
+}
+
+.mozi{
+	margin-left:30px;
+	margin-top:10px;
+}
+
+.footer{
+	text-align:center;
+}
+
